@@ -26,6 +26,14 @@ struct QuestionView: View {
                 }
                 
                 ProgressBar(progress: 40)
+                
+                VStack(alignment: .leading, spacing: 20){
+                    Text("What nationality was the surrealist painter Salvador Dali?")
+                        .font(.system(size: 20))
+                        .bold()
+                        .foregroundColor(.white)
+                }
+                
             }
                 .padding()
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
