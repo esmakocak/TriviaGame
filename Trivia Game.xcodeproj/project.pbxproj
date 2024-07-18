@@ -19,6 +19,7 @@
 		40E5A2C52C4949D700680E84 /* AnswerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E5A2C42C4949D700680E84 /* AnswerRow.swift */; };
 		40E5A2C72C49953C00680E84 /* TriviaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E5A2C62C49953C00680E84 /* TriviaView.swift */; };
 		40E5A2C92C499C9800680E84 /* Trivia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E5A2C82C499C9800680E84 /* Trivia.swift */; };
+		40E5A2CB2C49A10C00680E84 /* TriviaManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E5A2CA2C49A10C00680E84 /* TriviaManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		40E5A2C42C4949D700680E84 /* AnswerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerRow.swift; sourceTree = "<group>"; };
 		40E5A2C62C49953C00680E84 /* TriviaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaView.swift; sourceTree = "<group>"; };
 		40E5A2C82C499C9800680E84 /* Trivia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trivia.swift; sourceTree = "<group>"; };
+		40E5A2CA2C49A10C00680E84 /* TriviaManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 		40E5A2A82C484A3600680E84 /* Trivia Game */ = {
 			isa = PBXGroup;
 			children = (
+				40E5A2CA2C49A10C00680E84 /* TriviaManager.swift */,
 				40E5A2BB2C49407000680E84 /* Extensions.swift */,
 				40E5A2C12C49487200680E84 /* Modals */,
 				40E5A2A92C484A3600680E84 /* Trivia_GameApp.swift */,
@@ -189,6 +192,7 @@
 				40E5A2C72C49953C00680E84 /* TriviaView.swift in Sources */,
 				40E5A2C92C499C9800680E84 /* Trivia.swift in Sources */,
 				40E5A2B92C49325100680E84 /* PrimaryButton.swift in Sources */,
+				40E5A2CB2C49A10C00680E84 /* TriviaManager.swift in Sources */,
 				40E5A2C52C4949D700680E84 /* AnswerRow.swift in Sources */,
 				40E5A2AC2C484A3600680E84 /* ContentView.swift in Sources */,
 				40E5A2C32C49488800680E84 /* Answer.swift in Sources */,
