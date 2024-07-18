@@ -26,7 +26,7 @@ class TriviaManager: ObservableObject {
     }
 
     func fetchTrivia() async {
-        guard let url = URL(string: "https://opentdb.com/api.php?amount=10") else {
+        guard let url = URL(string: "https://opentdb.com/api.php?amount=10&category=25") else {
             fatalError("Missing URL")
         }
 

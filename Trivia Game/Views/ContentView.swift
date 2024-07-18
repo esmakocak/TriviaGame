@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var triviaManager = TriviaManager()
+    
     var body: some View {
         NavigationView {
             ZStack {
@@ -24,7 +26,8 @@ struct ContentView: View {
                                 .foregroundColor(Color("AccentColor"))
                                 .padding()
                             
-                            NavigationLink(destination: TriviaView()) {  PrimaryButton(text: "Play")}
+                            NavigationLink(destination: TriviaView()         .environmentObject(triviaManager)
+                            ) {  PrimaryButton(text: "Play")}
                         
                             
                         }

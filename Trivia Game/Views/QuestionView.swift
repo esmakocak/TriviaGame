@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct QuestionView: View {
+    @EnvironmentObject var triviaManager: TriviaManager
+    
     var body: some View {
         ZStack {
             Image("11")
@@ -40,8 +42,10 @@ struct QuestionView: View {
                         .foregroundColor(.gray)
                     
                     AnswerRow(answer: Answer(text: "Spanish", isCorrect: true))
+                        .environmentObject(triviaManager)
+
                     AnswerRow(answer: Answer(text: "German", isCorrect: false))
-                    AnswerRow(answer: Answer(text: "Italian", isCorrect: false))
+                        .environmentObject(triviaManager)
                 }
                 
                 PrimaryButton(text: "Next")
@@ -61,4 +65,5 @@ struct QuestionView: View {
 
 #Preview {
     QuestionView()
+        .environmentObject(TriviaManager())
 }
