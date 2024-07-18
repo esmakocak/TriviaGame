@@ -11,6 +11,7 @@
 		40E5A2AC2C484A3600680E84 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E5A2AB2C484A3600680E84 /* ContentView.swift */; };
 		40E5A2AE2C484A3900680E84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40E5A2AD2C484A3900680E84 /* Assets.xcassets */; };
 		40E5A2B12C484A3900680E84 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40E5A2B02C484A3900680E84 /* Preview Assets.xcassets */; };
+		40E5A2B92C49325100680E84 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E5A2B82C49325100680E84 /* PrimaryButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		40E5A2AB2C484A3600680E84 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		40E5A2AD2C484A3900680E84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40E5A2B02C484A3900680E84 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		40E5A2B82C49325100680E84 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				40E5A2A92C484A3600680E84 /* Trivia_GameApp.swift */,
-				40E5A2AB2C484A3600680E84 /* ContentView.swift */,
+				40E5A2BA2C4934C300680E84 /* Views */,
+				40E5A2B72C49323600680E84 /* Components */,
 				40E5A2AD2C484A3900680E84 /* Assets.xcassets */,
 				40E5A2AF2C484A3900680E84 /* Preview Content */,
 			);
@@ -65,6 +68,22 @@
 				40E5A2B02C484A3900680E84 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		40E5A2B72C49323600680E84 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				40E5A2B82C49325100680E84 /* PrimaryButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		40E5A2BA2C4934C300680E84 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				40E5A2AB2C484A3600680E84 /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40E5A2B92C49325100680E84 /* PrimaryButton.swift in Sources */,
 				40E5A2AC2C484A3600680E84 /* ContentView.swift in Sources */,
 				40E5A2AA2C484A3600680E84 /* Trivia_GameApp.swift in Sources */,
 			);
