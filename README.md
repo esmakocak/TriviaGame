@@ -1,11 +1,17 @@
 **Art Quiz: Test Your Art Knowledge! 🎨**
+
 Art Quiz is a fun and engaging iOS app that challenges your knowledge of art history, famous paintings, artists, and more. 
 
 **Features:**
+
 -Choose the correct answer from a selection of options.
+
 -Keep track of your progress and see your score at the end of the game.
+
 -Play again with new questions each time.
+
 -The app fetches trivia questions from the Open Trivia DB API.
+
 -Used; SwiftUI, Combine, MVVM Architecture.
 
 
