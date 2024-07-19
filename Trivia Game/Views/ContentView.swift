@@ -29,7 +29,6 @@ struct ContentView: View {
                             NavigationLink(destination: TriviaView()         .environmentObject(triviaManager)
                             ) {  PrimaryButton(text: "Play")}
                         
-                            
                         }
                         .padding()
                             .background(

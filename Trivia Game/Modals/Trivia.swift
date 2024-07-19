@@ -11,7 +11,9 @@ struct Trivia: Decodable {
     var results: [Result]
     
     struct Result: Decodable, Identifiable {
-        var id: UUID = UUID()
+        var id: UUID {
+            UUID()
+        }
         var category: String
         var type: String
         var difficulty: String
