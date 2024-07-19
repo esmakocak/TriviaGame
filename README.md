@@ -10,9 +10,9 @@ Art Quiz is a fun and engaging iOS app that challenges your knowledge of art his
 
 -Play again with new questions each time.
 
--The app fetches trivia questions from the Open Trivia DB API.
+-The app fetches trivia questions from the **Open Trivia DB API**.
 
--Used; SwiftUI, Combine, MVVM Architecture.
+-Used; **SwiftUI**, **Combine**, **MVVM** Architecture.
 
 
 <img width="334" alt="Screenshot 2024-07-19 at 12 48 39" src="https://github.com/user-attachments/assets/ad0337dc-7601-4726-bb40-a6ce9614404a">
